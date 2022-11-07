@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+.game-container {
+    margin-top: 1rem;
+}
+
+h1 {
+    background-color: #2980b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.startGamebtn {
+    background-color: rgb(163, 114, 64);
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body {
+    background-color: rgb(84, 196, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    width: 60vh;
+    height: 30vh;
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    background-color: rgb(246, 55, 55);
+}
+
+.play-again  {
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+.play-again-won {
+    border-radius: 20px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.article2 {
+    background-color: rgb(246, 55, 55);
+
+    width: 60vh;
+    height: 30vh;
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.wrong-letters-container {
+    margin: 1rem;
+    font-size: larger;
+}
+
+figure svg>* {
+    opacity: 0;
+}
+
+figure svg #ground {
+    opacity: 1;
+}
+
+figure.scaffold svg #scaffold {
+    opacity: 1;
+}
+
+figure.head svg #head {
+    opacity: 1;
+}
+
+figure.body svg #body {
+    opacity: 1;
+}
+
+figure.arms svg #arms {
+    opacity: 1;
+}
+
+figure.legs svg #legs {
+    opacity: 1;
+}
